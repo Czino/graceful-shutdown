@@ -34,4 +34,5 @@ This script shuts down the machine if no network is detected for x amount of tim
 The script contains 2 important variables `INTERFACE` & `MINUTES`
 
 **INTERFACE** (default eth0): the interface your device is connected with (see full list with `ip link show`)
+
 **MINUTES** (default 10): the minutes the script waits until it sends the shutdown signal
